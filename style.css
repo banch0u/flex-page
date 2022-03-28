@@ -1,5 +1,6 @@
 html body{
     height: 100%;
+    
 }
 header{
     margin-top: 30px;
@@ -18,4 +19,14 @@ header{
     text-decoration: none;
     margin-left: 15px;
     font-weight: bold;
+}
+
+img{
+    height: 280px;
+}
+main div{
+    display: flex;
+    justify-content: center;
+    
+    
 }
