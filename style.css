@@ -9,7 +9,7 @@ html body {
 }
 
 header{
-    margin-top: 30px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
     
@@ -40,6 +40,13 @@ img{
     border: solid 3px;
     border-color: #eeeeee;
     border-radius: 20px;
+}
+button{
+    background-color: #eeeeee;
+    border-style: none;
+    margin: 0px 5px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 
