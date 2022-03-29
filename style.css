@@ -1,7 +1,13 @@
-html body{
-    height: 100%;
+html body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
     
 }
+
 header{
     margin-top: 30px;
     display: flex;
@@ -11,22 +17,36 @@ header{
 .left a{
     color: gray;
     text-decoration: none;
-    margin-right: 15px;
+    margin-left: 15px;
     font-weight: bold;
 }
 .right a{
     color: gray;
     text-decoration: none;
-    margin-left: 15px;
+    margin-right: 15px;
     font-weight: bold;
-}
-
-img{
-    height: 280px;
 }
 main div{
     display: flex;
     justify-content: center;
-    
-    
+}
+img{
+    height: 280px;
+}
+.searchBar input{
+    margin-bottom: 15px;
+    height: 25px;
+    width: 550px;
+    border: solid 3px;
+    border-color: #eeeeee;
+    border-radius: 20px;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #eeeeee;
 }
